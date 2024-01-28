@@ -52,4 +52,23 @@ $selection-background-color: unquote("{{ site.selection.background_color }}");
   $selection-background-color: rgba(invert($brand-color), 0.3);
 }
 
+@font-face {
+  font-family: 'BMHANNAPro';
+  src: url('../fonts/BMHANNAPro.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'BMHANNAAir';
+  src: url('../fonts/BMHANNAAir_ttf.ttf') format('truetype');
+}
+
+@font-face{
+  font-family:'BMEULJIRO';
+  src: url('../fonts/BMEuljiro10yearslater.ttf') format('truetype');
+}
+
+
+
+@import "header.scss";
+
 @import "yat";

@@ -1,0 +1,21 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "블로그",
+  "main": "index.js",
+  "scripts": {
+    "upgrade-ruby": "./base.sh",
+    "start": "jekyll serve",
+    "set": "bundle install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JUDONGHYEOK/blog.git"
+  },
+  "author": "JUDONGHYEOK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JUDONGHYEOK/blog/issues"
+  },
+  "homepage": "https://github.com/JUDONGHYEOK/blog#readme"
+}
